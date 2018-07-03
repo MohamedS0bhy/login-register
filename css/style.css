@@ -1,0 +1,64 @@
+p{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    padding-top: 15px;
+}
+.header .logo{
+    float:left;
+    font-weight:bold;
+    position: fixed;
+    top: 31px;
+    font-size: xx-large;
+}
+.header .logo span{
+    color:#D9534F;
+
+}
+.header .welcome {
+    float:right;
+    font-size: 16px;
+}
+.header .welcome a{text-decoration: none;font-weight: bold;padding: 8px;width: 150px;margin-top: 2px;display: block}
+.contents{margin-top: 20px;}
+
+.contents .container{
+    border: 2px solid #cec9c9;
+    margin-top:2px;
+    border-radius:5px;
+    padding:10px;
+    min-height:350px;
+}
+.contents .nav {
+    float: left;
+    width: 25%;
+    padding-right:15px;
+}
+.contents .nav ul{
+    list-style: none;
+
+}
+.contents .nav ul li{
+    margin-bottom:3px; 
+}
+.contents .nav ul li a{
+    padding:10px;
+    color: white;
+    display:block;
+    width: 100%;
+    border-radius:5px;
+
+}
+.contents .nav ul li a , .contents .nav ul li a:hover {
+    text-decoration: none;
+}
+.footer{
+    margin-top: 40px;
+    border-top: 2px dashed #cec9c9
+}
+.footer p{margin-top: 15px}
+.sign .container{border: 1px solid #ddd;border-radius: 7px;margin-top: 80px;background: #ddd}
+.sign .login , .sign .register{width:40%;float: left;margin-top: 30px ;margin-bottom: 20px;margin-left: 90px}
+.sign .in{display: block;padding:10px;width:70%;margin-bottom:7px;border-radius: 5px;}
+.sign .login input[type="submit"] , .sign .register input[type="submit"]{width:25%;padding:7px;border-radius: 7px;margin-top:7px;}
